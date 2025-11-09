@@ -198,5 +198,4 @@ The data comes from a Portuguese retail bank's direct marketing campaigns conduc
 
 - **For Initial Exploration**: Use bank.csv (faster processing)
 - **For Final Model Training**: Use bank-full.csv (complete data)
-- **For Advanced Models**: Use bank-additional-full.csv (economic context)
 - **For Model Evaluation**: Focus on precision-recall metrics, ROC-AUC, and lift curves given the imbalanced nature
