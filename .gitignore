@@ -6,3 +6,4 @@ artifacts/*.sav
 
 .vscode
 .ipynb_checkpoints
+artifacts/
