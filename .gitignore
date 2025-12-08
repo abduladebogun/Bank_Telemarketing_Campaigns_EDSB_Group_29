@@ -1,0 +1,8 @@
+*.pkl
+*.joblib
+artifacts/*.pkl
+artifacts/*.joblib
+artifacts/*.sav
+
+.vscode
+.ipynb_checkpoints
