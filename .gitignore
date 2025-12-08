@@ -33,7 +33,7 @@ artifacts/*.pkl
 artifacts/*.joblib
 artifacts/*.sav
 
-<<<<<<< HEAD
+
 # ----------------------------------------
 # Local data files
 # ----------------------------------------
@@ -108,8 +108,18 @@ coverage.xml
 reports/*.html
 reports/*.pdf
 reports/*.png
-=======
+
 .vscode
 .ipynb_checkpoints
 artifacts/
->>>>>>> recovery1
+
+
+*.pkl
+*.joblib
+artifacts/*.pkl
+artifacts/*.joblib
+artifacts/*.sav
+
+.vscode
+.ipynb_checkpoints
+artifacts/
