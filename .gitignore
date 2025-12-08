@@ -1,0 +1,109 @@
+# ----------------------------------------
+# Python cache & bytecode
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------------------
+# Virtual environments
+# ----------------------------------------
+venv/
+env/
+.venv/
+.conda/
+.venv.bak/
+
+# ----------------------------------------
+# Jupyter Notebook
+# ----------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Avoid committing large notebook metadata
+*.nbconvert.ipynb
+
+# ----------------------------------------
+# Model artifacts
+# ----------------------------------------
+*.pkl
+*.joblib
+artifacts/*.pkl
+artifacts/*.joblib
+artifacts/*.sav
+
+# ----------------------------------------
+# Local data files
+# ----------------------------------------
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.txt
+
+# But allow example datasets or templates
+!data/sample.csv
+!data/template_input.csv
+
+# ----------------------------------------
+# Streamlit / App logs
+# ----------------------------------------
+*.log
+logs/
+streamlit/logs/
+
+# ----------------------------------------
+# Upload temp files from Streamlit
+# ----------------------------------------
+uploaded_files/
+tmp/
+temp/
+*.tmp
+
+# ----------------------------------------
+# OS and editor files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ----------------------------------------
+# Python packaging
+# ----------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ----------------------------------------
+# VSCode / PyCharm IDE
+# ----------------------------------------
+.vscode/
+.idea/
+
+# ----------------------------------------
+# Cache for dependency tools
+# ----------------------------------------
+.cache/
+.pip/
+.pip-cache/
+.pytest_cache/
+coverage.xml
+
+# ----------------------------------------
+# Environment files (optional)
+# You can remove these if you want to commit a reproducible env
+# ----------------------------------------
+.env
+.env.*
+*.env
+
+# ----------------------------------------
+# HTML/Exported reports
+# ----------------------------------------
+reports/*.html
+reports/*.pdf
+reports/*.png
